@@ -1,0 +1,10 @@
+C:\cis 501\final project first version\client\client\bin\Debug\client.exe.config
+C:\cis 501\final project first version\client\client\bin\Debug\client.exe
+C:\cis 501\final project first version\client\client\bin\Debug\client.pdb
+C:\cis 501\final project first version\client\client\obj\Debug\client.csprojAssemblyReference.cache
+C:\cis 501\final project first version\client\client\obj\Debug\client.AuctionController.resources
+C:\cis 501\final project first version\client\client\obj\Debug\client.Properties.Resources.resources
+C:\cis 501\final project first version\client\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\cis 501\final project first version\client\client\obj\Debug\client.exe
+C:\cis 501\final project first version\client\client\obj\Debug\client.pdb
+C:\cis 501\final project first version\client\client\obj\Debug\client.Login.resources
