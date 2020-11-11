@@ -22,6 +22,7 @@ namespace client
             var logininfo = getloginstring();
             //create a request to the server to see if the login info is valid:
             
+
             InitializeComponent();
         }
 

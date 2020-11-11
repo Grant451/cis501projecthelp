@@ -10,10 +10,14 @@ using System.Windows.Forms;
 
 namespace server
 {
-    public partial class Form1 : Form
+    public partial class ServerForm : Form
     {
-        public Form1()
+        public ServerForm()
         {
+            //on startup it should fill the 
+            var login = new LoginControl();
+            login.loadcred();
+            MessageBox.Show("finished");
             InitializeComponent();
         }
     }
