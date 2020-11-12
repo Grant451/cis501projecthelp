@@ -16,7 +16,12 @@ namespace server
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ServerForm());
+            var help = new ServerForm();
+            if(help.auth)
+            {
+                Application.Run(help);//new ServerForm());
+            }
+            
         }
     }
 }

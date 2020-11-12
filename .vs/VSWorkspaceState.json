@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\client"
+    "\\server"
   ],
-  "SelectedNode": "\\client\\client.sln",
+  "SelectedNode": "\\server\\server.sln",
   "PreviewInSolutionExplorer": false
 }

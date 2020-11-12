@@ -11,3 +11,4 @@ C:\cis 501\final project first version\server\server\obj\Debug\server.ServerForm
 C:\cis 501\final project first version\server\server\bin\Debug\Newtonsoft.Json.dll
 C:\cis 501\final project first version\server\server\bin\Debug\Newtonsoft.Json.xml
 C:\cis 501\final project first version\server\server\obj\Debug\server.csproj.CopyComplete
+C:\cis 501\final project first version\server\server\obj\Debug\server.AddProduct.resources

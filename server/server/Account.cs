@@ -8,6 +8,7 @@ namespace server
 {
     class Account
     {
+
         private string username;
 
         private string password;

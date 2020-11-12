@@ -21,10 +21,16 @@ namespace server
         /// this will read the file and return all the password information to the logincontrol
         /// </summary>
         /// <returns></returns>
-        public List<string[]> ReadAccounts()
+        public List<Account> ReadAccounts()
         {
-            var temp = new List<string[]>();
-            string[] AlarmAsString = System.IO.File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + @"\SavedAccounts.txt");
+            var temp = new List<Account>();
+            string[] accountsasstring = System.IO.File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + @"\SavedAccounts.txt");
+            int h = accountsasstring.Length;
+            //Account x = JsonConvert.DeserializeObject<Account>(accountsasstring[0]);
+            for(int i = 0; i<h; i++ )
+            {
+                temp.Add(JsonConvert.DeserializeObject<Account>(accountsasstring[i]));
+            }
             return temp;
         }
     }
