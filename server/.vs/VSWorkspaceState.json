@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\server",
-    "\\server\\Json.NET",
-    "\\server\\Json.NET\\Lib"
+    "\\server"
   ],
   "SelectedNode": "\\server.sln",
   "PreviewInSolutionExplorer": false
