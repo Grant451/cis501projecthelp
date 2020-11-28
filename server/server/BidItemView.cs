@@ -24,6 +24,9 @@ namespace server
         //holds the list of strings that mirrors the items list in bid items
         private List<string> items = new List<string>();
 
+        //holds an instance of message to send messages
+        private Message sender = new Message();
+
         public ServerForm()
         {
             //on startup it should fill the 
@@ -33,6 +36,7 @@ namespace server
             if(login.checkcredentials(cred))
             {
                 auth = true;
+                sender.StartServer();
                 InitializeComponent();
                 auction = new AuctionControl();
             }

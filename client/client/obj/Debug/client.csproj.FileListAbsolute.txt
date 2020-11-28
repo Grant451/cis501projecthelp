@@ -8,3 +8,5 @@ C:\cis 501\final project first version\client\client\obj\Debug\client.csproj.Gen
 C:\cis 501\final project first version\client\client\obj\Debug\client.exe
 C:\cis 501\final project first version\client\client\obj\Debug\client.pdb
 C:\cis 501\final project first version\client\client\obj\Debug\client.Login.resources
+C:\cis 501\final project first version\client\client\bin\Debug\websocket-sharp.dll
+C:\cis 501\final project first version\client\client\obj\Debug\client.csproj.CopyComplete

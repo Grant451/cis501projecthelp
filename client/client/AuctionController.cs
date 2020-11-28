@@ -15,13 +15,33 @@ namespace client
 {
     public partial class AuctionController : Form
     {
+        //public delegate void somemethodptr();
+        /*static void Main(string[] args)
+         * {
+         *  somemethodeptr obj = new somemethodeptr(somemethod);
+         *  obj.invoke();
+         *  }
+         *  static void somemethod(){};
+         */
+
+        //the controller will have a private message instance:
+        private Message messanger;
+
         public AuctionController()
         {
             //call a methode to validate the login credentials:
             //MessageBox.Show("help");
             var logininfo = getloginstring();
             //create a request to the server to see if the login info is valid:
-            
+
+            //check login***
+
+            //set the username to the name:
+            string name = logininfo[0];
+
+            //spool up server
+            messanger = new Message();
+            messanger.StartServer(name);
 
             InitializeComponent();
         }
@@ -42,5 +62,12 @@ namespace client
             }
             return logininfo;
         }
+
+        private void txtdemosend_Click(object sender, EventArgs e)
+        {
+            messanger.SendMessage(txtdemomessage.Text);
+        }
+
+        
     }
 }

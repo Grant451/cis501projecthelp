@@ -21,6 +21,8 @@ namespace server
             // Add the Chat websocket service
             //wss.AddWebSocketService<Chat>("/chat");
 
+            wss.AddWebSocketService<WebsocketCom>("/chat");
+
             // Start the server
             wss.Start();
 
